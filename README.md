@@ -1,2 +1,2 @@
 ﻿# allenleung86.github.io
-hexo 生成页面管理
+hexo 代码管理
