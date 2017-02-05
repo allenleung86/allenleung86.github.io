@@ -4,8 +4,8 @@
 
 # Site
 title: My Hexo Blog 哈哈
-subtitle:
-description:
+subtitle: subtitle
+description: description
 author: Allen Leung
 language:
 timezone:
