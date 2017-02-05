@@ -4,10 +4,10 @@
 
 # Site
 title: My Hexo Blog 哈哈
-subtitle: 有温度的子标题
-description: 这是一条有态度的描述
+subtitle:
+description:
 author: Allen Leung
-language: zh-CN
+language:
 timezone:
 
 # URL
@@ -63,7 +63,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: yelee
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
