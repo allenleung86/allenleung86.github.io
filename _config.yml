@@ -3,16 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: My Hexo Blog 哈哈
-subtitle: subtitle
-description: description
+title: AllenLeung Hexo
+subtitle: 欢迎来到我的Hexo Blog
+description: 学习hexo ing
 author: Allen Leung
-language:
+language: zh-CN
 timezone:
+email: londalonda@qq.com
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://www.allenleung.tk
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -69,5 +70,5 @@ theme: yelee
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/allenleung86/allenleung86.github.io.git
+  repo: git@github.com:allenleung86/allenleung86.github.io.git
   branch: master
