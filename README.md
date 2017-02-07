@@ -1,2 +1,2 @@
-﻿# allenleung86.github.io
-hexo 代码管理
+﻿# hexo 源码管理主页
+放在hexoSrc分支
