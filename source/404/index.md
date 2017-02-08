@@ -14,5 +14,5 @@ permalink: /404
 
 <div align="center">
     播放下我在网易云音乐收藏的歌曲,放松下
-    <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=300 height=250 src="//music.163.com/outchain/player?type=0&id=152073977&auto=0&height=230"></iframe>
+    <embed src="//music.163.com/style/swf/widget.swf?sid=152073977&type=0&auto=0&width=310&height=90" width="330" height="110"  allowNetworking="all"></embed>
 </div>

@@ -187,7 +187,7 @@ friends:
 #friends: false
 
 #是否开启“关于我”。
-aboutme: 专注于前端
+aboutme: 码农,通过写Hexo博客,吸收掌握多点新知识
 #aboutme: false
 
 # Open link in a new tab | 是否在新窗口打开链接
