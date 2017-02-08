@@ -4,7 +4,7 @@ date: 2017-02-07 10:43:34
 permalink: /404
 ---
 <div align="center">
-    {% img http://okxw7jg6g.bkt.clouddn.com/404%281%29.png "找不到此页面" %}
+    {% img http://okxw7jg6g.bkt.clouddn.com/404%281%29.png 435 235 "找不到此页面" %}
 </div>
 
 <div align="center">
@@ -14,5 +14,5 @@ permalink: /404
 
 <div align="center">
     播放下我在网易云音乐收藏的歌曲,放松下
-    <embed src="//music.163.com/style/swf/widget.swf?sid=152073977&type=0&auto=0&width=310&height=90" width="330" height="110"  allowNetworking="all"></embed>
+    <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=450 src="//music.163.com/outchain/player?type=0&id=152073977&auto=0&height=430"></iframe>
 </div>
