@@ -1,5 +1,8 @@
 ---
 title: 第一篇记录
+date: 2017-02-07 19:32:40
+categories: [随笔]
+tags: [随笔]
 top: 1
 ---
 首先,先膜拜这么漂亮的主题的创始者{% link MOxFIVE http://moxfive.xyz/ %}...

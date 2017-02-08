@@ -167,7 +167,7 @@ animate: true
 
 # Load jQuery UI to style tooltips
 # 工具提示框样式美化
-jquery_ui: false
+jquery_ui: true
 
 # Max width of right cloumn | 限制右侧内容的宽带 
 limit_article_width: 
@@ -220,9 +220,9 @@ ie_updater:
 
 # Tab Title Change | 标签页标题切换
 tab_title_change: 
-  on: false
-  left_tab_title: '(つェ⊂) 我藏好了哦~ '
-  return_tab_title: '(*´∇｀*) 被你发现啦~ '
+  on: true
+  left_tab_title: '(つェ⊂)'
+  return_tab_title: '(*´∇｀*)'
 
 
 # >>> Vendors | 第三方工具 & 服务 <<<
@@ -242,7 +242,7 @@ fancybox: true
 
 # Display Math(LaTeX, MathML...) | 数学公式支持
 ## https://www.mathjax.org/
-mathjax: false
+mathjax: true
 
 # Socail Share | 是否开启分享
 share: 

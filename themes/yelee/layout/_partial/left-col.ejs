@@ -1,35 +1,44 @@
 <div class="overlay"></div>
 <div class="intrude-less">
     <header id="header" class="inner">
+        <!-- 添加个人头像 -->
         <a href="<%= config.root %>" class="profilepic">
             <img src="<%- theme.root_url %><%=theme.avatar%>" class="animated zoomIn">
         </a>
+
+        <!-- 添加博客作者 -->
         <hgroup>
           <h1 class="header-author"><a href="<%= config.root %>"><%=theme.author%></a></h1>
         </hgroup>
 
+        <!-- 添加子标题 -->
         <% if (theme.subtitle){ %>
         <p class="header-subtitle"><%=theme.subtitle%></p>
         <%}%>
 
+        <!-- 添加空行 -->
+        <br/><br/>
+
+        <!-- 添加搜索框 -->
         <% if (theme.search.on){ %>
             <form id="search-form">
             <input type="text" id="local-search-input" name="q" placeholder="search..." class="search form-control" autocomplete="off" autocorrect="off" searchonload="<%= theme.search.onload %>" />
             <i class="fa fa-times" onclick="resetSearch()"></i>
             </form>
             <div id="local-search-result"></div>
-            <p class='no-result'>No results found <i class='fa fa-spinner fa-pulse'></i></p>
+            <p class='no-result'>No results found</p>
         <%}%>
-
 
         <%if(theme.tagcloud){%>
             <div id="switch-btn" class="switch-btn">
                 <div class="icon">
                     <div class="icon-ctn">
+                        <!-- 添加鸟屋图标 -->
                         <div class="icon-wrap icon-house" data-idx="0">
                             <div class="birdhouse"></div>
                             <div class="birdhouse_holes"></div>
                         </div>
+                        <!-- 添加导航色带 -->
                         <div class="icon-wrap icon-ribbon hide" data-idx="1">
                             <div class="ribbon"></div>
                         </div>
@@ -46,8 +55,9 @@
                         </div>
                         <%}%>
                     </div>
-                    
                 </div>
+
+                <!-- 添加"菜单,标签,友情链接,关于我"栏目" -->
                 <div class="tips-box hide">
                     <div class="tips-arrow"></div>
                     <ul class="tips-inner">
@@ -66,6 +76,7 @@
 
         <div id="switch-area" class="switch-area">
             <div class="switch-wrap">
+                <!-- 添加"菜单"栏目 -->
                 <section class="switch-part switch-part1">
                     <nav class="header-menu">
                         <ul>
@@ -82,7 +93,8 @@
                         </ul>
                     </nav>
                 </section>
-                
+
+                <!-- 添加"标签"栏目 -->
                 <%if(theme.tagcloud){%>
                 <section class="switch-part switch-part2">
                     <div class="widget tagcloud" id="js-tagcloud">
@@ -90,7 +102,8 @@
                     </div>
                 </section>
                 <%}%>
-                
+
+                <!-- 添加"友情链接"栏目 -->
                 <%if(theme.friends && theme.friends.length != 0){%>
                 <section class="switch-part switch-part3">
                     <div id="js-friends">
@@ -101,6 +114,7 @@
                 </section>
                 <%}%>
 
+                <!-- 添加"关于我"栏目 -->
                 <%if(theme.aboutme){%>
                 <%if(!theme.friends){%>
                 <section class="switch-part switch-part3">
