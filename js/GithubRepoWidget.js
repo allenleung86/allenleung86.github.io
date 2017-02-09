@@ -50,7 +50,6 @@
 		xmlhttp.send();
 	}
 	function _init() {
-		alert("into GithubRepoWidget.js's _init()");
 		var github_eles = document.querySelectorAll('.github-widget'), repoEle, repo, vendorName, repoName, vendorUrl, repoUrl, widget;
 		for (var i = 0; i < github_eles.length; i++) {
 			repoEle = github_eles[i];

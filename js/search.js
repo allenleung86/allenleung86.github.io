@@ -6,7 +6,6 @@
 
 var searchFunc = function(path, search_id, content_id) {
     'use strict';
-    alert("into search.js's function");
     $.ajax({
         url: path,
         dataType: "xml",

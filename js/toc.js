@@ -1,5 +1,4 @@
 define(function (){
-    alert("into toc.js's define()");
 
     var toggleTocArea = function(){
         var valueHide = yiliaConfig.toc[0];
