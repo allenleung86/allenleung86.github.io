@@ -2,6 +2,11 @@
 title: 关于我
 date: 2017-02-07 16:22:15
 ---
+> 我的github for hexo
+<div class="github-widget" data-repo="allenleung86/allenleung86.github.io"></div>
+>      yelee模板创造者MOxFIVE github for hexo
+<div class="github-widget" data-repo="MOxFIVE/hexo-theme-yelee"></div>
+
 # 其实这里是防垃圾的地方
 ## 这里是实验堆填区
 ### 定期会整理下
