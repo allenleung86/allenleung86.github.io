@@ -141,6 +141,7 @@ define([], function(){
 
     return{
         init: function(){
+            alert("into mobile.js's init()");
             //构造函数需要的参数
             ctn = document.getElementsByClassName("slider-trigger")[0];
             //构造四步

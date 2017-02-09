@@ -2,6 +2,7 @@ require([], function (){
 
     var isMobileInit = false;
     var loadMobile = function(){
+        alert("into main.js's mobile part");
         require([yiliaConfig.rootUrl + 'js/mobile.js'], function(mobile){
             mobile.init();
             isMobileInit = true;
@@ -9,7 +10,7 @@ require([], function (){
     }
     var isPCInit = false;
     var loadPC = function(){
-        alert("into main.js");
+        alert("into main.js's pc part");
         require([yiliaConfig.rootUrl + 'js/pc.js'], function(pc){
             pc.init();
             isPCInit = true;

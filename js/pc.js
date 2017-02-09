@@ -210,6 +210,7 @@ define([], function(){
 
     return {
         init: function(){
+            alert("into pc.js's init()");
             resetTags();
             bind();
             Tips.init();
