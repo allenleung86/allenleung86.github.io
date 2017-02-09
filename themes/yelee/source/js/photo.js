@@ -20,10 +20,12 @@ define([], function () {
             if (begin >= data.length) return;
             var html, li = "";
             for (var i = begin; i < end && i < data.length; i++) {
-                li += '<li><div class="img-box">' +
-                    '<a class="img-bg" rel="example_group" href="http://okxw7jg6g.bkt.clouddn.com/' + data[i] + '?raw=true"></a>' +
-                    '<img lazy-src="http://okxw7jg6g.bkt.clouddn.com/' + data[i] + '?raw=true" />' +
-                    '</li>';
+                li += '<li>\
+                            <div class="img-box">\
+                                <a class="img-bg" rel="example_group" href="http://okxw7jg6g.bkt.clouddn.com/' + data[i] + '"></a>\
+                                <img src="http://okxw7jg6g.bkt.clouddn.com/' + data[i] + '" />\
+                            </div>\
+                        </li>';
             }
 
             $(".img-box-ul").append(li);
