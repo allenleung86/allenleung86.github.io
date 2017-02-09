@@ -201,11 +201,9 @@ require([], function (){
         }
     })
 
-    /*
     if($(".instagram").length) {
-        require(['/js/photo.js', '/fancybox/jquery.fancybox.js', '/js/jquery.lazyload.js'], function(obj) {
+        require(['/js/photo.js', 'lib//fancybox/jquery.fancybox.js', '/lib/jquery_lazyload/jquery.lazyload.js'], function(obj) {
             obj.init();
         });
     }
-    */
 })
