@@ -6,7 +6,6 @@ define([], function () {
         page: 1,
         offset: 20,
         init: function () {
-            alert("into photo.js's init()");
             var that = this;
             $.getJSON("/photos/photoData.json", function (data) {
                 that.render(that.page, data);
@@ -16,19 +15,16 @@ define([], function () {
         },
 
         render: function (page, data) {
-            alert("into photo.js's render()");
             var begin = (page - 1) * this.offset;
             var end = page * this.offset;
             if (begin >= data.length) return;
             var html, li = "";
             for (var i = begin; i < end && i < data.length; i++) {
                 li += '<li><div class="img-box">' +
-                    '<a class="img-bg" rel="example_group" href="https://github.com/allenleung86/allenleung86.github.io/tree/hexoSrc/photos/' + data[i] + '?raw=true"></a>' +
-                    '<img lazy-src="https://github.com/allenleung86/allenleung86.github.io/tree/hexoSrc/photos/' + data[i] + '?raw=true" />' +
+                    '<a class="img-bg" rel="example_group" href="https://github.com/allenleung86/allenleung86.github.io/blob/hexoSrc/photos/' + data[i] + '?raw=true"></a>' +
+                    '<img lazy-src="https://github.com/allenleung86/allenleung86.github.io/blob/hexoSrc/photos/' + data[i] + '?raw=true" />' +
                     '</li>';
             }
-
-            alert("li: [" + li + "]");
 
             $(".img-box-ul").append(li);
             $(".img-box-ul").lazyload();
