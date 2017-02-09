@@ -26,7 +26,7 @@
 
     播放下我在网易云音乐收藏的歌曲,放松下">
 <meta property="og:image" content="http://okxw7jg6g.bkt.clouddn.com/404%281%29.png">
-<meta property="og:updated_time" content="2017-02-08T01:07:07.943Z">
+<meta property="og:updated_time" content="2017-02-09T00:10:13.480Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="学习园地">
 <meta name="twitter:description" content="很抱歉，您所访问的地址并不存在:    回到首页 · 所有文章 · 关于我
@@ -85,7 +85,9 @@
 </script>
 
 
-    <script> yiliaConfig.jquery_ui = [false]; </script>
+    <script>
+        yiliaConfig.jquery_ui = [true, "//cdn.bootcss.com/jqueryui/1.10.4/jquery-ui.min.js", "//cdn.bootcss.com/jqueryui/1.10.4/css/jquery-ui.min.css"];
+    </script>
 
 
 
@@ -113,35 +115,44 @@
     <div class="overlay"></div>
 <div class="intrude-less">
     <header id="header" class="inner">
+        <!-- 添加个人头像 -->
         <a href="/" class="profilepic">
             <img src="http://okxw7jg6g.bkt.clouddn.com/me%28400x400%29.jpg" class="animated zoomIn">
         </a>
+
+        <!-- 添加博客作者 -->
         <hgroup>
           <h1 class="header-author"><a href="/">Allen Leung</a></h1>
         </hgroup>
 
+        <!-- 添加子标题 -->
         
         <p class="header-subtitle">欢迎来到我的Hexo Blog</p>
         
 
+        <!-- 添加空行 -->
+        <br/><br/>
+
+        <!-- 添加搜索框 -->
         
             <form id="search-form">
             <input type="text" id="local-search-input" name="q" placeholder="search..." class="search form-control" autocomplete="off" autocorrect="off" searchonload="true" />
             <i class="fa fa-times" onclick="resetSearch()"></i>
             </form>
             <div id="local-search-result"></div>
-            <p class='no-result'>No results found <i class='fa fa-spinner fa-pulse'></i></p>
+            <p class='no-result'>No results found</p>
         
-
 
         
             <div id="switch-btn" class="switch-btn">
                 <div class="icon">
                     <div class="icon-ctn">
+                        <!-- 添加鸟屋图标 -->
                         <div class="icon-wrap icon-house" data-idx="0">
                             <div class="birdhouse"></div>
                             <div class="birdhouse_holes"></div>
                         </div>
+                        <!-- 添加导航色带 -->
                         <div class="icon-wrap icon-ribbon hide" data-idx="1">
                             <div class="ribbon"></div>
                         </div>
@@ -158,8 +169,9 @@
                         </div>
                         
                     </div>
-                    
                 </div>
+
+                <!-- 添加"菜单,标签,友情链接,自我介绍"栏目" -->
                 <div class="tips-box hide">
                     <div class="tips-arrow"></div>
                     <ul class="tips-inner">
@@ -169,7 +181,7 @@
                         <li>友情链接</li>
                         
                         
-                        <li>关于我</li>
+                        <li>自我介绍</li>
                         
                     </ul>
                 </div>
@@ -178,6 +190,7 @@
 
         <div id="switch-area" class="switch-area">
             <div class="switch-wrap">
+                <!-- 添加"菜单"栏目 -->
                 <section class="switch-part switch-part1">
                     <nav class="header-menu">
                         <ul>
@@ -216,15 +229,17 @@
                         </ul>
                     </nav>
                 </section>
-                
+
+                <!-- 添加"标签"栏目 -->
                 
                 <section class="switch-part switch-part2">
                     <div class="widget tagcloud" id="js-tagcloud">
-                        <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/IDE/">IDE</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/IDEA/">IDEA</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/git/">git</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/外链/">外链</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/常用命令/">常用命令</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/快捷键/">快捷键</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/网易云音乐/">网易云音乐</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/背景音乐/">背景音乐</a></li></ul>
+                        <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/IDE/">IDE</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/IDEA/">IDEA</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/git/">git</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/外链/">外链</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/常用命令/">常用命令</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/快捷键/">快捷键</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/网易云音乐/">网易云音乐</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/背景音乐/">背景音乐</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/随笔/">随笔</a></li></ul>
                     </div>
                 </section>
                 
-                
+
+                <!-- 添加"友情链接"栏目 -->
                 
                 <section class="switch-part switch-part3">
                     <div id="js-friends">
@@ -239,6 +254,7 @@
                 </section>
                 
 
+                <!-- 添加"自我介绍"栏目 -->
                 
                 
                 <section class="switch-part switch-part4">
@@ -307,7 +323,7 @@
             </nav>
         </header>                
     </div>
-    <link class="menu-list" tags="标签" friends="友情链接" about="关于我"/>
+    <link class="menu-list" tags="标签" friends="友情链接" about="自我介绍"/>
 </nav>
       <div class="body-wrap"><article id="page-undefined" class="article article-type-page" itemscope itemprop="blogPost">
   
@@ -346,11 +362,11 @@
 
 
           
-        <div align="center"><br>    <img src="http://okxw7jg6g.bkt.clouddn.com/404%281%29.png" title="找不到此页面"><br></div>
+        <div align="center"><br>    <img src="http://okxw7jg6g.bkt.clouddn.com/404%281%29.png" width="435" height="235" title="找不到此页面"><br></div>
 
 <div align="center"><br>    很抱歉，您所访问的地址并不存在:<br>    <a href="http://www.allenleung.tk">回到首页</a> · <a href="http://www.allenleung.tk/archives">所有文章</a> · <a href="http://www.allenleung.tk/about">关于我</a><br></div>
 
-<div align="center"><br>    播放下我在网易云音乐收藏的歌曲,放松下<br>    <embed src="//music.163.com/style/swf/widget.swf?sid=152073977&type=0&auto=0&width=310&height=90" width="330" height="110"  allowNetworking="all"></embed><br></div>
+<div align="center"><br>    播放下我在网易云音乐收藏的歌曲,放松下<br>    <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=450 src="//music.163.com/outchain/player?type=0&id=152073977&auto=0&height=430"></iframe><br></div>
       
     </div>
     
@@ -476,6 +492,27 @@
 
 
 
+    <script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+        processEscapes: true,
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    }
+});
+
+MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';                 
+    }       
+});
+</script>
+
+<script src="//cdn.bootcss.com/mathjax/2.6.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
 <div class="scroll" id="scroll">
     <a href="#" title="返回顶部"><i class="fa fa-arrow-up"></i></a>
     <a href="#comments" onclick="load$hide();" title="查看评论"><i class="fa fa-comments-o"></i></a>
@@ -502,6 +539,23 @@
         }
     
 </script>
+
+    <script>
+        var originTitle = document.title;
+        var titleTime;
+        document.addEventListener("visibilitychange", function() {
+            if (document.hidden) {
+                document.title = "(つェ⊂)" + originTitle;
+                clearTimeout(titleTime);
+            }
+            else {
+                document.title = "(*´∇｀*)" + originTitle;
+                titleTime = setTimeout(function() {
+                    document.title = originTitle;
+                }, 2000);
+            }
+        })
+    </script>
 
 <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
 </script>

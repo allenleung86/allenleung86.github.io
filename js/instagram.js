@@ -134,5 +134,6 @@ var Instagram = (function(){
 	}
 })();
 $(function(){
+	alert("into instagram.js");
 	Instagram.init();
 })
