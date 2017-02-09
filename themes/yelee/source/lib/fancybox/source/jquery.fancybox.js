@@ -764,8 +764,8 @@
 			D.trigger(event);
 		},
 
-		isImage: function (str) {
-			return isString(str) && str.match(/(^data:image\/.*,)|(\.(jp(e|g|eg)|gif|png|bmp|webp|svg)((\?|#).*)?$)/i);
+		isImage: function (str) { //最后增加对ico图标格式的支持
+            return isString(str) && str.match(/(^data:image\/.*,)|(\.(jp(e|g|eg)|gif|png|bmp|webp|svg|ico)((\?|#).*)?$)/i);
 		},
 
 		isSWF: function (str) {
