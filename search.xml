@@ -63,14 +63,16 @@
     </entry>
     
     <entry>
-      <title><![CDATA[IDEA快捷键整理(容易忘记又关键的)]]></title>
-      <url>http://www.allenleung.tk/2017/02/07/2017-02-07.IDEA%E5%BF%AB%E6%8D%B7%E9%94%AE%E6%95%B4%E7%90%86/</url>
-      <content type="html"><![CDATA[<h1 id="整理容易忘记又关键的快捷键-学会新的难记的就记录下来"><a href="#整理容易忘记又关键的快捷键-学会新的难记的就记录下来" class="headerlink" title="整理容易忘记又关键的快捷键,学会新的难记的就记录下来"></a>整理容易忘记又关键的快捷键,学会新的难记的就记录下来</h1><p>以下两个改动,生效的前提是先关闭系统的图形选项快捷键:桌面右键,把图形选项的快捷键关了.<br>查看上一次改动:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ctrl+alt+&lt;-</div></pre></td></tr></table></figure></p>
+      <title><![CDATA[IDEA快捷键&常用设置整理(容易忘记又关键的)]]></title>
+      <url>http://www.allenleung.tk/2017/02/07/2017-02-07.IDEA%E5%BF%AB%E6%8D%B7%E9%94%AE&amp;%E5%B8%B8%E7%94%A8%E8%AE%BE%E7%BD%AE%E6%95%B4%E7%90%86/</url>
+      <content type="html"><![CDATA[<h1 id="整理容易忘记又关键的快捷键-学会新的难记的就记录下来"><a href="#整理容易忘记又关键的快捷键-学会新的难记的就记录下来" class="headerlink" title="整理容易忘记又关键的快捷键,学会新的难记的就记录下来"></a>整理容易忘记又关键的快捷键,学会新的难记的就记录下来</h1><p>##快捷键</p>
+<p>以下两个改动,生效的前提是先关闭系统的图形选项快捷键:桌面右键,把图形选项的快捷键关了.<br>查看上一次改动:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ctrl+alt+&lt;-</div></pre></td></tr></table></figure></p>
 <p>查看下一次改动:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ctrl+alt+-&gt;</div></pre></td></tr></table></figure></p>
 <p>格式化代码<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">Ctrl + Alt + L</div></pre></td></tr></table></figure></p>
 <p>复制代码到下行<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ctrl + d</div></pre></td></tr></table></figure></p>
 <p>删除并复制代码<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">Ctrl + x</div></pre></td></tr></table></figure></p>
 <p>移动指标当前行或选定行代码<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">Ctrl + shift + 上或下</div></pre></td></tr></table></figure></p>
+<p>##常用设置<br>设置编辑器自动换行<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">Settings-&gt;Editor-&gt;General-&gt;Soft Wraps-&gt;Use soft wraps in editor</div></pre></td></tr></table></figure></p>
 ]]></content>
     </entry>
     
