@@ -109,7 +109,7 @@
 <p>移动指标当前行或选定行代码<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">Ctrl + shift + 上或下</div></pre></td></tr></table></figure></p>
 <h2 id="常用设置"><a href="#常用设置" class="headerlink" title="常用设置"></a>常用设置</h2><p>设置文本自动换行<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">Settings-&gt;Editor-&gt;General-&gt;Soft Wraps-&gt;Use soft wraps in editor</div></pre></td></tr></table></figure></p>
 <p>修改java代码和jsp页面(还有js,html等)不用重新启动Tomcat<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">在项目tomcat设置的窗口里，设置On frame deactivation -&gt; Update classes and resourcees 即可</div></pre></td></tr></table></figure></p>
-<p>配图:<br><img src="http://okxw7jg6g.bkt.clouddn.com/QQ%E5%9B%BE%E7%89%8720170215090855.jpg" title="356.66 140.33 pic1"><br><img src="http://okxw7jg6g.bkt.clouddn.com/QQ%E5%9B%BE%E7%89%8720170215090942.png" title="360.33 241.66 pic2"></p>
+<p>配图:<br><img src="http://okxw7jg6g.bkt.clouddn.com/QQ%E5%9B%BE%E7%89%8720170215090855.jpg" width="356" height="140" title="pic1"><br><img src="http://okxw7jg6g.bkt.clouddn.com/QQ%E5%9B%BE%E7%89%8720170215090942.png" width="360" height="241" title="pic2"></p>
 ]]></content>
     </entry>
     
