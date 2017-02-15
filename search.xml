@@ -107,7 +107,8 @@
 <p>复制代码到下行<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ctrl + d</div></pre></td></tr></table></figure></p>
 <p>删除并复制代码<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">Ctrl + x</div></pre></td></tr></table></figure></p>
 <p>移动指标当前行或选定行代码<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">Ctrl + shift + 上或下</div></pre></td></tr></table></figure></p>
-<h2 id="常用设置"><a href="#常用设置" class="headerlink" title="常用设置"></a>常用设置</h2><p>设置编辑器自动换行<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">Settings-&gt;Editor-&gt;General-&gt;Soft Wraps-&gt;Use soft wraps in editor</div></pre></td></tr></table></figure></p>
+<h2 id="常用设置"><a href="#常用设置" class="headerlink" title="常用设置"></a>常用设置</h2><p>设置文本自动换行<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">Settings-&gt;Editor-&gt;General-&gt;Soft Wraps-&gt;Use soft wraps in editor</div></pre></td></tr></table></figure></p>
+<p>修改java代码和jsp页面(还有js,html等)不用重新启动Tomcat<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">在项目tomcat设置的窗口里，设置On frame deactivation -&gt; Update classes and resourcees 即可</div></pre></td></tr></table></figure></p>
 ]]></content>
     </entry>
     
